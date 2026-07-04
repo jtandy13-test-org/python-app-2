@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: python-app-2
+  description: Sample Python Flask Application
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: jtandy13/python-app-2
+    backstage.io/techdocs-ref: dir:.
+    deployment.backstage.io/environment: dev
+spec:
+  type: service
+  owner: development
+  lifecycle: experimental
